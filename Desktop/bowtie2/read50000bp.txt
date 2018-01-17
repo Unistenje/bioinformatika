@@ -1,0 +1,8 @@
+Time loading reference: 00:00:00
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Error: Out of memory allocating 1073741824 __m128i's for DP matrix: 'std::bad_alloc'
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(ERR): bowtie2-align exited with value 134
