@@ -1,0 +1,77 @@
+java -Djava.library.path=/home/ivan/Desktop/bbmap/jni/ -ea -Xmx4572m -cp /home/ivan/Desktop/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in1=./Reads/read1_100.fq in2=./Reads/read2_100.fq out=./Reads/mapped_100.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in1=./Reads/read1_100.fq, in2=./Reads/read2_100.fq, out=./Reads/mapped_100.sam]
+Version 37.78 [build=1, overwrite=true, fastareadlen=500, in1=./Reads/read1_100.fq, in2=./Reads/read2_100.fq, out=./Reads/mapped_100.sam]
+
+Retaining first best site only for ambiguous mappings.
+Set genome to 1
+
+Loaded Reference:	0.101 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.707 seconds.
+Analyzed Index:   	2.136 seconds.
+Started output stream:	0.558 seconds.
+Cleared Memory:    	0.134 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 4 mapping threads.
+Detecting finished threads: 0, 1, 2, 3
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	3996	(399600 bases)
+
+Mapping:          	3.356 seconds.
+Reads/sec:       	1190.86
+kBases/sec:      	119.09
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	 99.9499% 	     1997 	 99.9499% 	      399400
+bad pairs:       	  0.0000% 	        0 	  0.0000% 	           0
+insert size avg: 	  500.03
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	100.0000% 	     1998 	100.0000% 	      199800
+unambiguous:     	 99.3493% 	     1985 	 99.3493% 	      198500
+ambiguous:       	  0.6507% 	       13 	  0.6507% 	        1300
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  6.8068% 	      136 	  6.8068% 	       13600
+semiperfect site:	  6.8068% 	      136 	  6.8068% 	       13600
+rescued:         	  2.1522% 	       43
+
+Match Rate:      	      NA 	       NA 	 97.3379% 	      194592
+Error Rate:      	 93.1932% 	     1862 	  2.6621% 	        5322
+Sub Rate:        	 92.6426% 	     1851 	  2.5276% 	        5053
+Del Rate:        	  3.7538% 	       75 	  0.0570% 	         114
+Ins Rate:        	  4.9049% 	       98 	  0.0775% 	         155
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 99.9499% 	     1997 	 99.9499% 	      199700
+unambiguous:     	 99.2993% 	     1984 	 99.2993% 	      198400
+ambiguous:       	  0.6507% 	       13 	  0.6507% 	        1300
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  6.2563% 	      125 	  6.2563% 	       12500
+semiperfect site:	  6.2563% 	      125 	  6.2563% 	       12500
+rescued:         	  2.4024% 	       48
+
+Match Rate:      	      NA 	       NA 	 97.3043% 	      194451
+Error Rate:      	 93.7406% 	     1872 	  2.6957% 	        5387
+Sub Rate:        	 93.2399% 	     1862 	  2.5651% 	        5126
+Del Rate:        	  4.9074% 	       98 	  0.0691% 	         138
+Ins Rate:        	  4.2063% 	       84 	  0.0615% 	         123
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	7.071 seconds.
