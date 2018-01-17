@@ -1,0 +1,36 @@
+Parsing FASTA file..
+Finished. Parsed 27 sequences.
+Elapsed time = 0.14 s
+
+Building Look-Up..
+Finished.
+Elapsed time = 1.06 s
+
+Building BWT..
+Finished constructing BWT in 16 iterations.  Elapsed time = 0.78 s
+
+Saving BWT..
+Finished saving BWT.  Elapsed time = 0.00 s
+
+Building Reversed BWT..
+Finished constructing Reversed BWT in 16 iterations.  Elapsed time = 0.78 s
+
+Saving BWT..
+Finished saving BWT.  Elapsed time = 0.00 s
+
+Loading BWT...
+Finished loading BWT.  Elapsed time = 0.00 s
+
+Building SA value...
+Finished building SA value.  Elapsed time = 0.16 s
+
+Building High-Occ Hash Table...
+Finished.
+Elapsed time = 0.15 s
+
+Building SA index...
+Finished building SA index.  Elapsed time = 0.84 s
+
+Index building is completed.
+Total elapsed time = 3.92 s
+

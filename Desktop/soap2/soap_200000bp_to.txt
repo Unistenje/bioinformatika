@@ -1,0 +1,21 @@
+
+Begin Program SOAPaligner/soap2
+Tue Jan 16 23:53:54 2018
+Reference: /home/ivan/Desktop/BIOINF_PROJEKT/E_coli_index_soap/e_coli.fa.index
+Query File a: /home/ivan/Desktop/BIOINF_PROJEKT/E_coli_reads_soap/read1_200000.fq
+Output File: soap200000bp
+Load Index Table ...
+Load Index Table OK
+Begin Alignment ...
+Length Error: incompitable seq and qual length
+       HG976963_314317_514316_4009:1141:272_4070:1141:272_10c/1
+1600 ok    0.01 sec
+Total Reads: 1600
+Alignment:   0 ( 0.00%)
+Total Elapsed Time:           10.09
+      - Load Index Table:      0.21
+      - Alignment:             9.88
+
+SOAPaligner/soap2 End
+Tue Jan 16 23:54:04 2018
+

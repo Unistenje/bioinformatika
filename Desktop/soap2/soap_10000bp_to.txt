@@ -1,0 +1,19 @@
+
+Begin Program SOAPaligner/soap2
+Tue Jan 16 23:51:56 2018
+Reference: /home/ivan/Desktop/BIOINF_PROJEKT/E_coli_index_soap/e_coli.fa.index
+Query File a: /home/ivan/Desktop/BIOINF_PROJEKT/E_coli_reads_soap/read1_10000.fq
+Output File: soap10000bp
+Load Index Table ...
+Load Index Table OK
+Begin Alignment ...
+1989 ok    0.12 sec
+Total Reads: 1989
+Alignment:   0 ( 0.00%)
+Total Elapsed Time:            1.02
+      - Load Index Table:      0.26
+      - Alignment:             0.77
+
+SOAPaligner/soap2 End
+Tue Jan 16 23:51:57 2018
+
